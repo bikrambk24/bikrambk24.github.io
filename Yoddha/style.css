@@ -328,6 +328,14 @@ header .navbar .nav-link {
     justify-content: end;
   }
 }
+@media (max-width: 576px) {
+  #footer .top-footer {
+    text-align: center;
+  }
+  #footer .top-footer .row .social-media-icons {
+    justify-content: center;
+  }
+}
 #footer .top-footer .row .footer-btn .btn {
   font-size: var(--p-h4-fontsize);
   background-color: #fff;
@@ -350,7 +358,8 @@ header .navbar .nav-link {
 }
 #footer .top-footer .container .row:nth-of-type(2) p,
 a {
-  color: #fff;
+  color: #ffffff;
+  font-weight: 400;
 }
 #footer .top-footer .row .social-media-icons {
   display: flex;
@@ -377,7 +386,6 @@ a {
 }
 #footer .top-footer .container .row:nth-of-type(2) .col-md-2 li {
   font-size: 16px;
-  font-weight: 300;
   line-height: 2.4;
 }
 #footer .bottom-footer {
@@ -709,6 +717,7 @@ a {
 #index .how-can-we-help .row .col-lg-10 h3 {
   margin-top: 5rem;
 }
+
 #index .how-can-we-help .row .col-lg-10 .card {
   border-radius: 20px;
   background: #ec2227;
@@ -754,14 +763,8 @@ a {
   border-radius: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.05);
   background: #fff;
-  height: 100%;
-  width: 100%;
 }
 
-#index .how-can-we-help .row .col-lg-2 .card .card-body {
-  height: 100%;
-  width: 100%;
-}
 #index .how-can-we-help .row .col-lg-2 .card .card-body h4 {
   text-align: center;
   padding: 0.5rem;
@@ -801,6 +804,9 @@ a {
     padding: 3rem;
     height: 450px;
   }
+  #index .how-can-we-help .row .card {
+    margin-top: 20px;
+  }
   #index .how-can-we-help .row .col-lg-10 .card {
     border-radius: 20px;
     background: #ec2227;
@@ -810,6 +816,9 @@ a {
     left: 20%;
     padding: 0.5rem;
     top: 45%;
+  }
+  #index .how-can-we-help .card-row h3 {
+    margin-top: 20px;
   }
   #index .how-can-we-help .row .col-lg-10 h3 {
     margin: 1.5rem 0;
